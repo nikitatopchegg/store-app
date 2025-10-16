@@ -1,0 +1,148 @@
+import type { IProduct } from "../types/store.types";
+
+export const products: IProduct[] = [
+  {
+    id: 1,
+    name: "iPhone 15 Pro",
+    price: 89990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=400&fit=crop",
+    category: "Электроника",
+    description: "Новейший смартфон Apple с инновационными технологиями",
+    rating: 4.8,
+    reviews: 156,
+    favorite: false,
+  },
+  {
+    id: 2,
+    name: 'MacBook Pro 14"',
+    price: 189990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+    category: "Электроника",
+    description: "Профессиональный ноутбук для разработчиков и дизайнеров",
+    rating: 4.9,
+    reviews: 89,
+    favorite: false,
+  },
+  {
+    id: 3,
+    name: "AirPods Pro",
+    price: 24990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop",
+    category: "Электроника",
+    description: "Беспроводные наушники с активным шумоподавлением",
+    rating: 4.7,
+    reviews: 234,
+    favorite: false,
+  },
+  {
+    id: 4,
+    name: "Мужская рубашка",
+    price: 2990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop",
+    category: "Одeжда",
+    description: "Классическая мужская рубашка из хлопка",
+    rating: 4.3,
+    reviews: 67,
+    favorite: false,
+  },
+  {
+    id: 5,
+    name: "Женское платье",
+    price: 4990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop",
+    category: "Одeжда",
+    description: "Элегантное платье для особых случаев",
+    rating: 4.6,
+    reviews: 123,
+    favorite: false,
+  },
+  {
+    id: 6,
+    name: "Джинсы",
+    price: 3990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+    category: "Одeжда",
+    description: "Классические синие джинсы",
+    rating: 4.4,
+    reviews: 89,
+    favorite: false,
+  },
+  {
+    id: 7,
+    name: "Кофеварка",
+    price: 12990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+    category: "Дом и сад",
+    description: "Автоматическая кофеварка для дома",
+    rating: 4.5,
+    reviews: 45,
+    favorite: false,
+  },
+  {
+    id: 8,
+    name: "Диван",
+    price: 49990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+    category: "Дом и сад",
+    description: "Удобный трёхместный диван",
+    rating: 4.7,
+    reviews: 34,
+    favorite: false,
+  },
+  {
+    id: 9,
+    name: "Настольная лампа",
+    price: 3990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    category: "Дом и сад",
+    description: "Современная LED лампа для рабочего стола",
+    rating: 4.2,
+    reviews: 78,
+    favorite: false,
+  },
+  {
+    id: 10,
+    name: 'Книга "JavaScript"',
+    price: 1990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=400&fit=crop",
+    category: "Книги",
+    description: "Полное руководство по JavaScript",
+    rating: 4.8,
+    reviews: 156,
+    favorite: false,
+  },
+  {
+    id: 11,
+    name: 'Роман "Мастер и Маргарита"',
+    price: 990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+    category: "Книги",
+    description: "Классика русской литературы",
+    rating: 4.9,
+    reviews: 267,
+    favorite: false,
+  },
+  {
+    id: 12,
+    name: "Беговые кроссовки",
+    price: 8990,
+    imageUrl:
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    category: "Спорт",
+    description: "Профессиональные кроссовки для бега",
+    rating: 4.6,
+    reviews: 89,
+    favorite: false,
+  },
+];
