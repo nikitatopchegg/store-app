@@ -5,7 +5,10 @@ import vitePluginSvgr from "vite-plugin-svgr";
 
 export default defineConfig({
   plugins: [react(), vitePluginSvgr()],
-  base: "./",
+  build: {
+    outDir: "docs", // сюда будет собираться билд вместо dist
+  },
+  base: "./", // чтобы пути к ассетам были относительными
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
